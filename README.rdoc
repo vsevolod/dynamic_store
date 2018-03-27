@@ -1,3 +1,19 @@
 = DynamicStore
 
+Allows you to dynamically add data to the model. Stores data in json format.
+
+== Install
+
+Add code to your Gemfile:
+
+```ruby
+# Gemfile
+gem 'dynamic_store'
+```
+
+```bash
+rails g dynamic:install
+rake db:migrate
+```
+
 This project rocks and uses MIT-LICENSE.
